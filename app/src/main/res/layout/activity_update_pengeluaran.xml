@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdatePengeluaranActivity">
+
+    <!--Edit text to enter date, automatically filled-->
+    <EditText
+        android:id="@+id/idEdtTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Tanggal saat ini"
+        android:minHeight="48dp"
+        android:focusable="false"
+        android:clickable="false" />
+
+    <!--edit text to enter course duration-->
+    <EditText
+        android:id="@+id/idEdtKeperluan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Pengeluaran untuk apa?"
+        android:minHeight="48dp" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/idEdtNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Berapa uang yang dikeluarkan?"
+        android:minHeight="48dp" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idEdtCourseKeterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Isikan keterangan Pengeluaran"
+        android:minHeight="48dp" />
+
+    <!--button for updating our course-->
+    <Button
+        android:id="@+id/idBtnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#4CAF50"
+        android:text="Perbarui Pengeluaran"
+        android:textAllCaps="false"
+        android:textColor="#263238"
+        android:textSize="40px" />
+
+    <!--button for deleting our course-->
+    <Button
+        android:id="@+id/idBtnHapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#4CAF50"
+        android:text="Hapus Pengeluaran"
+        android:textAllCaps="false"
+        android:textColor="#263238"
+        android:textSize="40px" />
+
+</LinearLayout>
